@@ -238,8 +238,8 @@ const SHOP_DATA = [
       {
         id: 30,
         name: 'Camo Down Vest',
-        // imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
-        imageUrl: "/images/shop-img/mens/camo-vest.png",
+        imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
+        // imageUrl: "/images/shop-img/mens/camo-vest.png",
         price: 325
       },
       {
