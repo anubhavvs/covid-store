@@ -8,16 +8,16 @@ const INTITIAL_STATE = {
     
         },
         {
-            title: 'disinfectant',
+            title: 'disinfectants',
             imageUrl: 'images/disinfectant.jpg',
             id: 2,
-            linkUrl: 'shop/disinfectant'
+            linkUrl: 'shop/disinfectants'
         },
         {
-            title: 'thermometer',
+            title: 'thermometers',
             imageUrl: 'images/thermometer.jpg',
             id: 3,
-            linkUrl: 'shop/thermometer'
+            linkUrl: 'shop/thermometers'
         },
         {
             title: 'sanitisers',

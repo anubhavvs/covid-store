@@ -1,5 +1,5 @@
-const SHOP_DATA = [
-  {
+const SHOP_DATA = {
+  masks: {
     id: 1,
     title: 'Masks',
     routeName: 'masks',
@@ -60,7 +60,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  sanitisers: {
     id: 2,
     title: 'Sanitisers',
     routeName: 'sanitisers',
@@ -115,7 +115,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  gloves: {
     id: 3,
     title: 'Gloves',
     routeName: 'gloves',
@@ -152,7 +152,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  thermometers: {
     id: 4,
     title: 'Thermometers',
     routeName: 'thermometers',
@@ -201,7 +201,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  disinfectants: {
     id: 5,
     title: 'Disinfectants',
     routeName: 'disinfectants',
@@ -244,6 +244,6 @@ const SHOP_DATA = [
       }
     ]
   }
-];
+};
 
 export default SHOP_DATA;
