@@ -4,15 +4,15 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config = {
-    apiKey: "AIzaSyCeVtV4IWpDo4-ojpChkOhzlgnoG0UrcrA",
-    authDomain: "clothing-store-db-f7ee9.firebaseapp.com",
-    databaseURL: "https://clothing-store-db-f7ee9.firebaseio.com",
-    projectId: "clothing-store-db-f7ee9",
-    storageBucket: "clothing-store-db-f7ee9.appspot.com",
-    messagingSenderId: "44493867360",
-    appId: "1:44493867360:web:a1974e59e4511184dd7605",
-    measurementId: "G-29VFQ0JT3F"
-};
+    apiKey: "AIzaSyBandFOjxy2JAvJjz37pN71vUKf30hThGU",
+    authDomain: "covid-store-db.firebaseapp.com",
+    databaseURL: "https://covid-store-db.firebaseio.com",
+    projectId: "covid-store-db",
+    storageBucket: "covid-store-db.appspot.com",
+    messagingSenderId: "597968187636",
+    appId: "1:597968187636:web:652cc18a9781cc6de86ea1",
+    measurementId: "G-Y4LDZNQ9H3"
+  };
 
 export const createUserProfileDocument = async(userAuth, additionalData) => {
     if (!userAuth) return;
