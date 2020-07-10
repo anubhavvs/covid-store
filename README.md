@@ -1,4 +1,30 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Covid Store Website using React
+
+## Preview
+You can see the live website here: [Heroku Deploy](https://anubhavvs-covid-store.herokuapp.com/)
+
+## Built With
+
+- [React](https://reactjs.org/)
+- [React Router](https://reactrouter.com/)
+- [Node SASS](https://www.npmjs.com/package/node-sass)
+- [Firebase](https://firebase.google.com/)
+- [Redux](https://redux.js.org/)
+- [Stripe](https://stripe.com/)
+
+## Features
+
+- [x] User Authentication with Firebase
+- [x] Local State Management with Redux
+- [x] Front End Stripe integration
+- [x] React Routing 
+- [ ] React Hooks
+- [ ] GraphQL
+- [ ] Context API
+- [ ] Responsive UI for Mobile
+- [ ] Firebase User and State Management
+- [ ] Back End Stripe Integration
+
 
 ## Available Scripts
 
@@ -42,27 +68,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
