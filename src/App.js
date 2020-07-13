@@ -16,7 +16,7 @@ import Header from './components/header/header';
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 
 import { setCurrentUser } from './redux/user/user.actions';
-import { selectCurrentuser } from './redux/user/user.selectors'
+import { selectCurrentuser } from './redux/user/user.selectors';
 
 class App extends React.Component {  
   unsubscribeFromAuth = null;
@@ -35,7 +35,6 @@ class App extends React.Component {
           });
         });
       }
-    
       setCurrentUser(userAuth);
     });
   }
