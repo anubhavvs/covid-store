@@ -5,6 +5,11 @@
     flex-direction: column;
     align-items: center;
     margin: 50px auto 0;
+
+    @media screen and (max-width: 800px) {
+      width: 100%;
+      padding: 10px;
+    }
   
     .checkout-header {
       width: 100%;
@@ -16,9 +21,21 @@
       .header-block {
         text-transform: capitalize;
         width: 23%;
+
+        @media screen and (max-width: 800px) {
+          width: fit-content;
+
+          &:first-child {
+            display: none;
+          }
+        }
   
         &:last-child {
           width: 8%;
+
+          @media screen and (max-width: 800px) {
+            width: fit-content;
+          }
         }
       }
     }
@@ -27,11 +44,17 @@
       margin-top: 30px;
       margin-left: auto;
       font-size: 36px;
+
+      @media screen and (max-width: 800px) {
+        font-size: 30px;
+      }
     }
 
     button {
       margin-left: auto;
       margin-top: 50px;
+
+      @media screen and (max-width: 800px) {}
     }
 
     .test-warning {
@@ -40,6 +63,10 @@
     font-size: 24px;
     color: red;
     font-weight: bold;
+
+    @media screen and (max-width: 800px) {
+      font-size: 20px;
+    }
     }
 }
   

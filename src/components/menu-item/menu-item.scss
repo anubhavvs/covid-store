@@ -20,6 +20,10 @@
 
     &.large {
       height: 380px;
+
+      @media screen and (max-width: 800px){
+        height: 200px;
+      }
     }
   
     &:first-child {
@@ -28,6 +32,10 @@
   
     &:last-child {
       margin-left: 7.5px;
+    }
+
+    @media screen and (max-width: 800px){
+      height: 200px;
     }
 
     .background-image {
@@ -48,6 +56,13 @@
       background-color: white;
       opacity: 0.7;
       position: absolute;
+
+      @media screen and (max-width: 800px) {
+        height: 80px;
+        width: fit-content;
+        padding: 10px;
+        padding-bottom: 20px;
+      }
   
       .title {
         font-weight: bold;

@@ -10,16 +10,32 @@
     .image-container {
       width: 23%;
       padding-right: 15px;
+      height: 120px;
+
+      @media screen and (max-width: 800px) {
+        display: none;
+      }
   
       img {
         width: 100%;
         height: 100%;
       }
     }
-    .name,
+    .name {
+      width: 23%;
+
+      @media screen and (max-width: 800px) {
+        font-size: 15px;
+        width: 34%;
+      }
+    }
     .quantity,
     .price {
       width: 23%;
+
+      @media screen and (max-width: 800px) {
+        width: 29%;
+      }
     }
   
     .quantity {
@@ -35,8 +51,12 @@
     }
   
     .remove-button {
-      padding-left: 12px;
+      padding-left: 10px;
       cursor: pointer;
+
+      @media screen and (max-width: 800px) {
+        padding: 0;
+      }
     }
   }
   
