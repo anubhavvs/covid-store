@@ -1,7 +1,9 @@
 # Covid Store Website using React
 
 ## Preview
-You can see the live website here: [Heroku Deploy](https://anubhavvs-covid-store.herokuapp.com/)
+You can see the live website here:
+- [Heroku Deploy](https://anubhavvs-covid-store.herokuapp.com/)
+- [Netlify Deploy](https://covid-store.netlify.app/)
 
 ## Built With
 
