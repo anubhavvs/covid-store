@@ -21,7 +21,7 @@ You can see the live website here: [Heroku Deploy](https://anubhavvs-covid-store
 - [ ] React Hooks
 - [ ] GraphQL
 - [ ] Context API
-- [ ] Responsive UI for Mobile
+- [x] Responsive UI for Mobile
 - [ ] Firebase User and State Management
 - [ ] Back End Stripe Integration
 
